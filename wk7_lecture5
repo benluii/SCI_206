@@ -1,0 +1,132 @@
+Radio and Television
+
+    Electromagnetism Recap:
+        - sources of electric fields
+            - electric charges and subatomic particles
+            - moving magnetic pole
+            - changing magnetic fields 
+        - sources of magnetic fields 
+            - magnetic poles and subatomic particles
+            - moving electric charge
+            - changing electric fields  
+
+        - electric fields contain energy 
+
+                      electricFeild^2 * volume 
+            energy = ---------------------------
+                     8*(3.14~) * coulombConstant
+
+        Flux Capacitor 
+            - 2 electrically charged plates
+            - creates an electric field b/w the 2 plates 
+            - when electric charges are being dispelled, a magnetic field is temporarily created 
+        
+    RADIO 
+
+        Transmitter
+            - communicates via electromagnetic waves 
+            - these waves are created by accelerating electric charges along an antenna
+            - accelerating electric charges produce a special mixture of electric + magnetic fields 
+            - these fields can travel long distances through empty space
+            - radio waves are a subset of electromagnetic waves 
+                - characterized by low frequencies and long wavelengths 
+
+        Tank Circuits
+            - amplifies the strength of the transmitter 
+            - uses resonant energy transfer (i.e. harmonic oscillation)
+                - i.e. increases the strength of the wave by "giving the charge a push synchronized with its rhythmic frequency"
+            - recall: period isn't affected by amplitude
+            - period depends on the capacitor and inductor
+                - capacitor: 
+                    - holds charge
+                    - larger the capacitor, longer the time for a charge to move through the circuit 
+                - inductor:
+                    - opposes current changes
+                    - larger the inductance, longer the time for the current to start and stop
+
+        Communication (Radio Waves)
+            - scenario: transmitting antenna -> receiving antenna 
+            Q:  How does the receiving antenna distinguish the transmitting antenna's radio waves from random thermal motion/electric noise?
+            A:  Move the charge at at a particular rhythm, thereby creating waves at a particular frequency 
+                This helps distinguish the transmission from random noise 
+            - at close distances, the charges from the transmitting antenna directly affect the charges on the receiving antenna
+            - at long distances, the charge must be carried via radio wave 
+            Radio Waves:
+                - can travel through empty space
+                - travels at the speed of light 
+                - series of alternating electric and magnetic fields that self reproduce 
+                - electric field is perpendicular to the magnetic field
+                    * Vertical Polarization
+                        - when the electric field is vertical
+                    * Horizontal Polarization
+                        - when the electric field is horizontal
+                - wavelength is usually ≥ 1 meter 
+
+        Antennas
+            - usually halfwave dipole or quarter-wave monopole antenna 
+            - strongest portion of radio wave is sent out perpendicular to antenna orientation
+            - orientation of antenna should match the transmitted wave's polarization 
+            - FM radio + TV broadcasts
+                - usually uses circularly polarized waves (combination of vertical and horizontal polarizations)
+                - typically short-wavelength 
+            - AM radio 
+                - only use vertical polarization
+                - only long-wavelength 
+        
+        Sound Representation 
+            - sound wave is combinations of compression and rarefractions of air 
+            * AM (amplitude modulation)
+                - amplitude == amount of charge moving up/down antenna 
+                - uses large amplitudes to represent compressions
+                - uses small amplitudes to represent rarefractions
+                - uses some kind of amplitude threshold to represent avg air pressure (?)
+            * FM (frequency modulation)
+                - frequency == times the charge moves up/down antenna 
+                - uses higher frequencies to represent compression
+                - uses lower frequencies to represent rarefractions
+                - changes in frequencies are very small 
+
+        Bandwith (for radio)
+            - different services are allocated different ranges in the frequncy spectrum
+            - in USA:
+                - AM => 550 kHz and 1600 kHz
+                - FM => 88 MHz and 108 MHz
+                - TV, police, aircraft etc occupy the other frequencies
+            - in order to prevent conflicting transmissions, radio stations are allocated subranges in their respective frequency range (aka bandwidth)
+                * AM stations are allocated 10kHz of bandwidth (5kHz above/below its carrier frequency)
+                * FM stations are allocated 200kHz of bandwidth (100kHz above/below its carrier frequency)
+                - as such FM radio can do better at transmitting music
+                - however, AM radio has better range 
+            - spectrum bandwidth for signals transmitted in cables are virually unrestricted since signal is isolated
+                - i.e. no competing noise 
+                
+    TELEVISION TUBE
+
+        - uses CRT (Cathode Ray Tube) tech
+        - consists of:
+            - cathode grid
+                - warmed by a nearby filament when the TV is turned on
+                - heat tosses the electrons towards the anode through a grid 
+            - anode
+                - positively charged
+                - attracts the electrons that make it past the grid 
+            - focusing coil
+                - uses a magnetic field to align/focus the electrons in the right direction
+            - deflecting coil
+                - bends the electrons in the precise direction it needs to hit the phosphor screen 
+            - phosphor screen
+                - bright white is produced when the electrons react with the phosphor
+                - to create grays, the negative charge on the cathode grid is increased, reducing the amount of electrons that make it past
+                - less electrons hitting the phosphor screen == less reaction == less white (gray)
+        - this process happens in a horizontal sweep, from top to bottom
+        - a full sweep takes 1/30 seconds, which is detectable by the human eye as a flicker
+        - to prevent this, alternate sweeps through even/odd rows, effectively make a "full sweep" every 1/60 seconds 
+
+        Colour
+            - phosphor screen is now an arrangement of RGB reactive phosphor dots
+            - for each arrangement of 3 dots, we have 3 electron guns
+            - shadow mask is used to to screen for the appropiate colour 
+            - shadow mask is easily magnetized, so you should keep magnets away from colour CRTs 
+
+
+        

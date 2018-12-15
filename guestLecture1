@@ -1,0 +1,16 @@
+traditional projectors use lamps
+- use a quartz rod (integrator rod) to create a tophat light distribution instead of a guassain one
+- lifetime of lamps around 4months
+- switching to lasers which have a lifetime of 30,000 hourss
+- colour gamut size:
+    HDTV<DCI projector<OLED/laser
+- light valve
+    - tiny mirrors that reflect light to/away from the projector to display images 
+
+- using IR to detect veins
+    - IR is used to detect veins (blood absorbs IR much more than surrounding tissue)
+    - the reflected IR is recorded and interpreted
+    - then RGB is used to display a humassn visible image back onto the skin
+        - the bright RGB areas are IR aborbed areas
+        - dark RGB areas are IR reflected areas
+        - basically inverse                                                                                                                                             

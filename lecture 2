@@ -1,0 +1,39 @@
+Resonance
+
+- transverse waves
+    - waves moving along string (string moves up/down)
+- longitudinal waves
+    - waves moving through spring 
+    - sound
+    - typically defined as regions of low/high pressure
+
+- V = F x L
+    - speed of wave = frequency x wavelength
+
+- doppler effect
+    - as sound source moves towards listener, less distance between source and listener, which means smaller wavelengths
+    - since speed of sound is constant, smaller waverlength results in higher frequency
+
+- oscillations
+    - pendulums (transverse oscillations)
+        - period of a pendulum only depends on length of string (not weight of pendulum)
+        - longer the string, longer the period, lower the frequency (rate at which its swinging stays constant)
+    - mass on spring (longitudinal oscillations)
+        - period (and frequency) depends on mass and stiffness of spring
+        - bigger the mass, lower the frequency
+        - stiffer the spring, higher the frequency
+
+- resonant frequency
+    - the natural frequency at which an oscillation prefers to oscillate
+    - applying energy at the same frequency increases amplitude of oscillation
+
+- sound from a wine glass
+    - when the rim of a wine glass is rubbed, the bowl of the glass moves in and out
+    - this moves the air back and forth, creating a pressure wave known as SOUND
+    - no air, no sound 
+
+- sound from a tube/ bottle
+    -  pressure wave is like a mass on a spring
+    - the air is the mass+spring
+    - frequency depends on the depth of the tube 
+    - fundamental wavelength = 2x tube length 

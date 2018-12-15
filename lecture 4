@@ -1,0 +1,54 @@
+Static Electricity
+
+- common rhetoric is that current moves from + to -
+- what really happens is - to +
+- Ohm's Law
+    - V = I * R
+    - voltage = current * resistance
+- Power
+    - P = V * I 
+    - power = voltage * current 
+
+- conductors
+    - has a postitive temperature coefficient
+    - this means that as temperature goes up, resistance goes up
+    - number of free electrons is independent to temp, but atoms start colliding
+- semiconductors
+    - has negative temperature coefficient
+    - this means that as temperature goes up, resistance goes down
+    - number of free electrons drastically go up as temp goes up, outweighing the atom collision factor
+
+- AC
+    - current changes direction
+    - voltage fluctuates like a sine graph
+    - power we get delivered to homes
+    - need a convertor to convert AC->DC
+- DC
+    - current direction is constant
+    - volatage is constant 
+    - the type of power most electronics run on
+
+- electro magnets 
+    - electric current makes a magnetic field
+    - strength of field depends on current and number of windings
+    - iron has magnetic domains that are normally randomly oriented
+    - these magnetic domains are typically oriented with a electric coil to amplify the magnetic strength of both
+
+- producing energy with magnets
+    - changing magnetic field induces an electric field
+    - lenz's law: current induced by a changing magnetic field always produces a magnetic field that opposes the change
+    - so pushing a magnet into a coil requires work, this work is converted into electrical energy 
+
+- fuses
+    - melts and breaks the circuit when current or resistance gets too high
+    - protects the load from overloading
+- circuit breaker
+    - consists of a bimetallic strip (2 strips of metal that expand at diff rates attached together)
+    - when the current is low, the strip lies flat, completing the circuit
+    - when the current gets too high, the metal expands, pulling contacts apart, and breaking the circuit
+- ground fault circuit interrupter (GFCI)
+    - live and neutral wires pass through a coil, wrapped around a solenoid 
+    - solenoid is attached to a switch that completes the circuit
+    - idea is that both currents are balanced to cancel each other out 
+    - once the live wire gets too hot (current gets too high), a magnetic field is induced, and the solenoid opens the switch
+    - this breaks the circuit
